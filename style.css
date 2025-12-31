@@ -5,7 +5,14 @@ html {
 
 body {
     height: 100%;
+    margin: 0px;
     justify-content: center;
+}
+
+header {
+    margin: 0px;
+    padding: 20px 40px 0px 40px;
+    color: rgb(0, 103, 172);
 }
 
 main {
@@ -21,9 +28,12 @@ footer {
 .big-title {
     font-size: 50px;
     font-weight: bolder;
-    margin: 125px 100px 75px 100px;
+    margin: 150px 100px 75px 100px;
     display: flex;
     justify-content: center;
+}
+.big-title:nth-of-type(1) {
+    margin: 90px 100px 75px 100px;
 }
 
 .subtitle {
