@@ -1,12 +1,22 @@
 html {
     height: 100%;
-    background-color: ivory;
+    /* background-color: ivory; */
 }
 
 body {
     height: 100%;
-    margin: 10% 20%;
     justify-content: center;
+}
+
+main {
+    margin: 10% 20%;
+}
+
+footer {
+    /* margin: 10% 20%; */
+    padding: 30px 20%;
+    background-color: aliceblue;
+    text-align: right;
 }
 
 .big-title {
@@ -17,9 +27,14 @@ body {
     justify-content: center;
 }
 
+.subtitle {
+    color: rgb(0, 131, 202);
+    font-weight: bold;
+}
+
 .card {
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid rgb(0, 103, 172);
     padding: 15px 30px;
     border-radius: 10px;
 }
@@ -35,11 +50,13 @@ body {
 }
 
 .cert {
-    font-size: 20px;
-    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 15px;
     margin: 0px 10px;
     border-radius: 10px;
-    background-color: rgb(232, 194, 192);
+    background-color: rgb(235, 235, 235);
+    color: rgb(0, 103, 172);
 }
 
 #about {
@@ -61,8 +78,7 @@ body {
 
 #strength {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-columns: 1fr
 }
 
 #actions {
@@ -73,10 +89,4 @@ body {
 
 #certification {
     text-align: center;
-}
-
-#contact {
-    /* border: 2px black dashed; */
-    text-align: right;
-    padding: 100px 30px;
 }
