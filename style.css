@@ -6,6 +6,7 @@ html {
 body {
     height: 100%;
     margin: 10% 20%;
+    justify-content: center;
 }
 
 .big-title {
@@ -31,6 +32,14 @@ body {
 .timeline {
     color: gray;
     text-align: right;
+}
+
+.cert {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    background-color: rgb(232, 194, 192);
 }
 
 #about {
@@ -60,4 +69,14 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     gap: 20px;
+}
+
+#certification {
+    text-align: center;
+}
+
+#contact {
+    /* border: 2px black dashed; */
+    text-align: right;
+    padding: 100px 30px;
 }
